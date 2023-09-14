@@ -1,10 +1,13 @@
 
-<script setup lang="ts">
-
+<script lang="ts" setup>
+import Header from './components/general/Header.vue'
 </script>
 
 <template>
-  <RouterView />
+  <div>
+    <Header />
+    <RouterView />
+  </div>
 </template>
 
 <style lang="sass">
